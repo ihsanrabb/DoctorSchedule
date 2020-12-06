@@ -2,7 +2,13 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { LogoDoctor } from '../../assets/icon'
 
-export default function Splash() {
+export default function Splash({navigation}) {
+  React.useEffect(() => {
+    setTimeout(()=> {
+      navigation.replace('GetStarted')
+    }, 2500)
+  }, [])
+
   return (
     <View style={styles.page}>
       <LogoDoctor />
