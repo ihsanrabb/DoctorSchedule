@@ -3,6 +3,7 @@ import { ImageBackground, StyleSheet, Text, View } from 'react-native'
 import { LogoDoctor } from '../../assets/icon'
 import { ILGetStarted } from '../../assets/illustration'
 import Button from '../../components/atoms/Button'
+import Gap from '../../components/atoms/Gap'
 
 export default function GetStarted() {
   return (
@@ -12,8 +13,8 @@ export default function GetStarted() {
         <Text style={styles.title}>Pilih jadwal dokter kamu sekarang!</Text>
       </View>
       <View>
-        <Button title="Login" />
-        <View style={{height: 16}} />
+        <Button title="Login" onPress={() => alert('hello')} />
+        <Gap height={16} />
         <Button title="Get Started" type="secondary" />
       </View>
     </ImageBackground>
@@ -29,9 +30,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 28,
-    fontWeight: '600',
-    color: 'black',
     marginTop: 91,
-    color: 'white'
+    color: 'white',
+    fontFamily: 'Nunito-SemiBold'
   }
 })
