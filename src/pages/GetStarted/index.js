@@ -5,7 +5,7 @@ import { ILGetStarted } from '../../assets/illustration'
 import Button from '../../components/atoms/Button'
 import Gap from '../../components/atoms/Gap'
 
-export default function GetStarted() {
+export default function GetStarted({navigation}) {
   return (
     <ImageBackground source={ILGetStarted} style={styles.page}>
       <View>
@@ -13,7 +13,7 @@ export default function GetStarted() {
         <Text style={styles.title}>Pilih jadwal dokter kamu sekarang!</Text>
       </View>
       <View>
-        <Button title="Login" onPress={() => alert('hello')} />
+        <Button title="Login" onPress={() => navigation.navigate('Login')} />
         <Gap height={16} />
         <Button title="Get Started" type="secondary" />
       </View>
