@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>275329841977-9s4vklhjimg12rbrds3j8j31m5c07eig.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.275329841977-9s4vklhjimg12rbrds3j8j31m5c07eig</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBnIkAwv0A6WuWP8p5o_y1J9MLkSOZdxdM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>275329841977</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.DoctorSchedule</string>
+	<key>PROJECT_ID</key>
+	<string>doctorschedule-3c397</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doctorschedule-3c397.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:275329841977:ios:574be02ce1665c09d106e8</string>
+</dict>
+</plist>
